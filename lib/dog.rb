@@ -1,9 +1,5 @@
 class Dog
-  def initialize(name, breed)
-    @name = name
-    @breed = breed
-    puts "I am a dog! I am #{@name}! I am a #{@breed} dog!"
-  end
+  attr_accessor :name, :breed
 end
 
-spot = Dog.new("Spot", "lab")
+
